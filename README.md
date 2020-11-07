@@ -1,7 +1,7 @@
 # supermall
 一个移动端vue商城项目
 ## 展示
-![001](https://https://github.com/ctrlwin/supermall/blob/master/images/001.jpg)
+![contents](https://github.com/ctrlwin/supermall/blob/master/images/001.jpg)
 
 ## Project setup
 ```
