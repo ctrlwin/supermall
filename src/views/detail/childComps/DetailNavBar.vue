@@ -2,7 +2,8 @@
   <div>
     <nav-bar>
       <div slot="left" class="back" @click="backClick">
-        <img src="~assets/img/common/back.svg" alt="">
+<!--        <img src="@/assets/img/common/back.svg" alt="">-->
+        <img src="@/assets/img/common/back.png" alt="">
       </div>
       <div slot="center" class="title">
         <div v-for="(item,index) in titles"
@@ -56,6 +57,8 @@
   }
 
   .back img {
-    margin-top: 11px;
+    width: 28px;
+    /*display: block;*/
+    margin-top: 6px;
   }
 </style>

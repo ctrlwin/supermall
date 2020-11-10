@@ -10,12 +10,12 @@ export default {
       if (oldProduct) {
         //数量加一
         context.commit(ADD_COUNTER, oldProduct)
-        resolve('当前商品数量+1')
+        resolve('商品已添加到购物车！')
       } else {
         //添加商品
         payload.count = 1
         context.commit(ADD_TO_CART, payload)
-        resolve('添加了新的商品')
+        resolve('商品已添加到购物车！')
       }
     })
   }

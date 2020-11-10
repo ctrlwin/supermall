@@ -4,10 +4,11 @@ module.exports = {
   publicPath: './',
   // 输出文件目录
   outputDir: 'dist',
+  // assetsDir: 'public',
   configureWebpack: {
     resolve: {
       alias: {
-        // 在内部已经配置了src=》@
+        // 在内部已经配置了src @
         'assets': '@/assets',
         'common': '@/common',
         'components': '@/components',
